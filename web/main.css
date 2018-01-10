@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+}
+
+h1 {
+    font-size: 300%;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(51, 51, 51);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ __    __  ________  _______    ______
+|  \  |  \|        \|       \  /      \
+| $$  | $$| $$$$$$$$| $$$$$$$\|  $$$$$$\
+| $$__| $$| $$__    | $$__| $$| $$  | $$
+| $$    $$| $$  \   | $$    $$| $$  | $$
+| $$$$$$$$| $$$$$   | $$$$$$$\| $$  | $$
+| $$  | $$| $$_____ | $$  | $$| $$__/ $$
+| $$  | $$| $$     \| $$  | $$ \$$    $$
+ \$$   \$$ \$$$$$$$$ \$$   \$$  \$$$$$$
+
+*/
+
+.hero-txt-container {
+    max-width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-txt-container p {
+    color: white;
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 300%;
+}
+
+.position-title {
+    font-size: 180%;
+}
+
+.parallax {
+    display: flex;
+    /* The image used */
+    background-image: url("cover.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+  ______   _______    ______   __    __  ________
+ /      \ |       \  /      \ |  \  |  \|        \
+|  $$$$$$\| $$$$$$$\|  $$$$$$\| $$  | $$ \$$$$$$$$
+| $$__| $$| $$__/ $$| $$  | $$| $$  | $$   | $$
+| $$    $$| $$    $$| $$  | $$| $$  | $$   | $$
+| $$$$$$$$| $$$$$$$\| $$  | $$| $$  | $$   | $$
+| $$  | $$| $$__/ $$| $$__/ $$| $$__/ $$   | $$
+| $$  | $$| $$    $$ \$$    $$ \$$    $$   | $$
+ \$$   \$$ \$$$$$$$   \$$$$$$   \$$$$$$     \$$
+
+*/
+
+.about {
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 80%;
+}
+
+.about-content p {
+    font-size: 150%;
+    text-align: center;
+    line-height: 180%;
+
+}
+
+/*
+ __    __  ______   ______  ________   ______   _______  __      __
+|  \  |  \|      \ /      \|        \ /      \ |       \|  \    /  \
+| $$  | $$ \$$$$$$|  $$$$$$\\$$$$$$$$|  $$$$$$\| $$$$$$$\\$$\  /  $$
+| $$__| $$  | $$  | $$___\$$  | $$   | $$  | $$| $$__| $$ \$$\/  $$
+| $$    $$  | $$   \$$    \   | $$   | $$  | $$| $$    $$  \$$  $$
+| $$$$$$$$  | $$   _\$$$$$$\  | $$   | $$  | $$| $$$$$$$\   \$$$$
+| $$  | $$ _| $$_ |  \__| $$  | $$   | $$__/ $$| $$  | $$   | $$
+| $$  | $$|   $$ \ \$$    $$  | $$    \$$    $$| $$  | $$   | $$
+ \$$   \$$ \$$$$$$  \$$$$$$    \$$     \$$$$$$  \$$   \$$    \$$
+
+ */
+
+.history {
+    margin-top: 80px;
+
+}
+
+.history-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.history-items {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 12%;
+}
+
+.history-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    background-color: lightgray;
+    width: 25vw;
+    height: 25vw;
+    max-width: 180px;
+    max-height: 180px;
+    min-width: 96px;
+    min-height: 96px;
+    border-radius: 8px;
+}
+
+.history-image {
+    width: 100%;
+}
+
+#metu {
+    width: 200%;
+}
+
+.history-description {
+    max-width: 60%;
+    max-height: 80%;
+    margin-left: 36px;
+}
+
+.history-title {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: dodgerblue;
+}
+
+.history-position {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: darkgreen;
+}
+
+.history-location {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: gray;
+}
+
+.history-detail {
+    font-size: 16px;
+    color: dimgray;
+}
+
+/*
+ _______   __    __   ______  ________   ______    ______
+|       \ |  \  |  \ /      \|        \ /      \  /      \
+| $$$$$$$\| $$  | $$|  $$$$$$\\$$$$$$$$|  $$$$$$\|  $$$$$$\
+| $$__/ $$| $$__| $$| $$  | $$  | $$   | $$  | $$| $$___\$$
+| $$    $$| $$    $$| $$  | $$  | $$   | $$  | $$ \$$    \
+| $$$$$$$ | $$$$$$$$| $$  | $$  | $$   | $$  | $$ _\$$$$$$\
+| $$      | $$  | $$| $$__/ $$  | $$   | $$__/ $$|  \__| $$
+| $$      | $$  | $$ \$$    $$  | $$    \$$    $$ \$$    $$
+ \$$       \$$   \$$  \$$$$$$    \$$     \$$$$$$   \$$$$$$
+
+ */
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(238, 238, 238);
+}
+
+.photos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photos-container img {
+    width: 20%;
+    min-width: 250px;
+    height: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.photos-foreword {
+    font-size: 150%;
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+/*
+  ______    ______   __    __  ________   ______    ______  ________
+ /      \  /      \ |  \  |  \|        \ /      \  /      \|        \
+|  $$$$$$\|  $$$$$$\| $$\ | $$ \$$$$$$$$|  $$$$$$\|  $$$$$$\\$$$$$$$$
+| $$   \$$| $$  | $$| $$$\| $$   | $$   | $$__| $$| $$   \$$  | $$
+| $$      | $$  | $$| $$$$\ $$   | $$   | $$    $$| $$        | $$
+| $$   __ | $$  | $$| $$\$$ $$   | $$   | $$$$$$$$| $$   __   | $$
+| $$__/  \| $$__/ $$| $$ \$$$$   | $$   | $$  | $$| $$__/  \  | $$
+ \$$    $$ \$$    $$| $$  \$$$   | $$   | $$  | $$ \$$    $$  | $$
+  \$$$$$$   \$$$$$$  \$$   \$$    \$$    \$$   \$$  \$$$$$$    \$$
+
+ */
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.social a {
+    font-size: 56px;
+
+    margin-right: 6px;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+.contacts-foreword {
+    font-size: 150%;
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+footer {
+    font-size: 100%;
+    color: lightgray;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 14px;
+}
