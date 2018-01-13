@@ -13,17 +13,23 @@ h1 {
     display: inline-block;
     margin: 0;
     margin-bottom: 20px;
+
+    text-shadow: 2px 2px 1px #cacaca;
 }
 
 .title {
     text-align: center;
-    margin-top: 20px;
     color: rgb(51, 51, 51);
 }
 
 ul {
     margin: 0;
     padding: 0;
+}
+
+.section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /*
@@ -125,11 +131,6 @@ ul {
 
  */
 
-.history {
-    margin-top: 80px;
-
-}
-
 .history-container {
     list-style-type: none;
     display: flex;
@@ -223,8 +224,6 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -268,8 +267,6 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
-    padding-bottom: 40px;
     background-color: white;
 }
 
