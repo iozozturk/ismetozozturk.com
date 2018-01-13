@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="main.css">
 
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script defer type="text/javascript" src="jquery.unveil.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112098998-1"></script>
@@ -26,6 +25,7 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <script defer type="text/javascript" src="main.js"></script>
+    <script src="lazysizes.min.js" async=""></script>
 </head>
 <body>
 
@@ -187,32 +187,31 @@
             a tasty meal. Here I want to share some frames from my life.</p>
     </div>
     <div class="photos-container">
-        <img src="photos/blank.png" data-src="photos/photo000.png">
-        <img src="photos/blank.png" data-src="photos/photo001.png">
-        <img src="photos/blank.png" data-src="photos/photo002.png">
-        <img src="photos/blank.png" data-src="photos/photo003.png">
-        <img src="photos/blank.png" data-src="photos/photo004.png">
-        <img src="photos/blank.png" data-src="photos/photo005.png">
-        <img src="photos/blank.png" data-src="photos/photo006.png">
-        <img src="photos/blank.png" data-src="photos/photo007.png">
-        <img src="photos/blank.png" data-src="photos/photo008.png">
-        <img src="photos/blank.png" data-src="photos/photo009.png">
-        <img src="photos/blank.png" data-src="photos/photo010.png">
-        <img src="photos/blank.png" data-src="photos/photo011.png">
-        <img src="photos/blank.png" data-src="photos/photo012.png">
-        <img src="photos/blank.png" data-src="photos/photo013.png">
-        <img src="photos/blank.png" data-src="photos/photo014.png">
-        <img src="photos/blank.png" data-src="photos/photo015.png">
-        <img src="photos/blank.png" data-src="photos/photo016.png">
-        <img src="photos/blank.png" data-src="photos/photo017.png">
-        <img src="photos/blank.png" data-src="photos/photo018.png">
-        <img src="photos/blank.png" data-src="photos/photo019.png">
-        <img src="photos/blank.png" data-src="photos/photo020.png">
-        <img src="photos/blank.png" data-src="photos/photo021.png">
-        <img src="photos/blank.png" data-src="photos/photo022.png">
-        <img src="photos/blank.png" data-src="photos/photo023.png">
-        <img src="photos/blank.png" data-src="photos/photo024.png">
-    </div>
+        <img class="lazyload" data-srcset="photos/small-photo001.png 1x, photos/photo000.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo001.png 1x, photos/photo001.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo002.png 1x, photos/photo002.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo003.png 1x, photos/photo003.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo004.png 1x, photos/photo004.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo005.png 1x, photos/photo005.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo006.png 1x, photos/photo006.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo007.png 1x, photos/photo007.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo008.png 1x, photos/photo008.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo009.png 1x, photos/photo009.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo010.png 1x, photos/photo010.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo011.png 1x, photos/photo011.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo012.png 1x, photos/photo012.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo013.png 1x, photos/photo013.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo014.png 1x, photos/photo014.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo015.png 1x, photos/photo015.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo016.png 1x, photos/photo016.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo017.png 1x, photos/photo017.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo018.png 1x, photos/photo018.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo019.png 1x, photos/photo019.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo020.png 1x, photos/photo020.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo021.png 1x, photos/photo021.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo022.png 1x, photos/photo022.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo023.png 1x, photos/photo023.png 2x" src="photos/blank.png" />
+        <img class="lazyload" data-srcset="photos/small-photo024.png 1x, photos/photo024.png 2x" src="photos/blank.png" />
 </section>
 
 <!-- CONTACTS -->
